@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{1025DA68-CDF7-477B-91B1-88FACCCC9664}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{5142CCF9-91D9-476E-B802-BB523C83AAB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{7B7CED41-4DC4-4515-8BDC-11F437958F76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{E53C2BEC-201A-45EA-A3CC-DDAB61F747FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixSampl.Foundation.Serialization", "Foundation\Serialization\code\HelixSampl.Foundation.Serialization.csproj", "{63971149-3B25-4398-931A-2831A8FBDD82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixSampl.Foundation.Theming", "Foundation\Theming\code\HelixSampl.Foundation.Theming.csproj", "{724D481B-FD23-4D10-8BF1-FA03A2E1337C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixSampl.Foundation.Core", "Foundation\Core\code\HelixSampl.Foundation.Core.csproj", "{7554BB4A-369E-4EEA-8C40-16EED7430E7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63971149-3B25-4398-931A-2831A8FBDD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63971149-3B25-4398-931A-2831A8FBDD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63971149-3B25-4398-931A-2831A8FBDD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63971149-3B25-4398-931A-2831A8FBDD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724D481B-FD23-4D10-8BF1-FA03A2E1337C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724D481B-FD23-4D10-8BF1-FA03A2E1337C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724D481B-FD23-4D10-8BF1-FA03A2E1337C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724D481B-FD23-4D10-8BF1-FA03A2E1337C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7554BB4A-369E-4EEA-8C40-16EED7430E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7554BB4A-369E-4EEA-8C40-16EED7430E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7554BB4A-369E-4EEA-8C40-16EED7430E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7554BB4A-369E-4EEA-8C40-16EED7430E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63971149-3B25-4398-931A-2831A8FBDD82} = {E53C2BEC-201A-45EA-A3CC-DDAB61F747FB}
+		{724D481B-FD23-4D10-8BF1-FA03A2E1337C} = {E53C2BEC-201A-45EA-A3CC-DDAB61F747FB}
+		{7554BB4A-369E-4EEA-8C40-16EED7430E7C} = {E53C2BEC-201A-45EA-A3CC-DDAB61F747FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78478253-9387-4AE8-9941-9C148ADE0B01}
+	EndGlobalSection
+EndGlobal
